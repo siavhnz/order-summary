@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution: [frontendmentor.io](https://your-solution-url.com)
+- Solution: [frontendmentor.io](https://www.frontendmentor.io/solutions/order-summary-component-ESfVaA-Mo3)
 - Live Site: [github.io](https://siavhnz.github.io/frontendmentor/6.order-summary/index.html)
 
 ## My process
