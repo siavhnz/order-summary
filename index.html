@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
+
+    <title>Frontend Mentor | Order summary card</title>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/output.css" />
+  </head>
+  <body>
+    <main class="bg-mobile-pattern bg-contain bg-no-repeat bg-pale-blue min-h-screen flex items-center justify-center lg:bg-desktop-pattern">
+      <article class="w-[20.5rem] bg-white rounded-3xl shadow-xl shadow-indigo-200 m-4 lg:w-[28rem]">
+        <figure>
+          <img class="rounded-t-3xl" src="./assets/images/illustration-hero.svg" alt="order summary"/>
+        </figure>
+        <div class="flex flex-col gap-4 px-6 py-8 lg:p-[2.9rem]">
+          <h1 class="text-center font-black text-semi-2xl text-dark-blue lg:text-semi-3xl">Order Summary</h1>
+          <p class="text-center text-Desaturated-blue text-base font-medium px-4">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+          <div class="flex items-center justify-start gap-4 p-4 my-2 bg-very-pale-blue rounded-lg lg:p-6 lg:mb-4 lg:rounded-xl">
+            <span class="after:content-[url(../images/icon-music.svg)] h-12" aria-hidden="true"></span>
+            <div class="flex flex-col lg:ml-1">
+              <span class="font-black text-dark-blue text-sm lg:text-base">Annual Plan</span>
+              <span class="text-Desaturated-blue text-sm lg:text-base">$59.99/year</span>
+            </div>
+            <a class="flex-grow text-right underline text-bright-blue font-bold text-sm hover:cursor-pointer hover:no-underline hover:text-light-purple">Change</a>
+          </div>
+          <button class="bg-bright-blue text-very-pale-blue rounded-xl font-bold text-base shadow-lg shadow-light-purple p-3.5 hover:bg-light-purple">Proceed to Payment</button>
+          <a class="text-center font-black text-Desaturated-blue mt-1 lg:mt-3 hover:text-dark-blue hover:cursor-pointer">Cancel Order</a>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
